@@ -4,7 +4,7 @@
 
 {% block content %}
 
-{% include 'components/breadcrumb.django-html' %}
+{% include 'components/breadcrumb.django-html' with title='Экскурсии' %}
 
 <div class="tour-list-area pd-top-120">
     <div class="container">

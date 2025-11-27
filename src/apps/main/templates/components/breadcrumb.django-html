@@ -5,9 +5,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-inner">
-                    <h1 class="page-title">About Us</h1>
+                    <h1 class="page-title">{{ title }}</h1>
                     <ul class="page-list">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Главная</a></li>
                         <li>About Us</li>
                     </ul>
                 </div>

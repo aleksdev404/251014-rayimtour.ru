@@ -51,21 +51,17 @@
                 </a>
             </div>
             <ul class="navbar-nav">
-                <li class="menu-item-has-children">
-                    <a href="#">Home</a>
-                    <ul class="sub-menu">
-                        <li><a href="#">Home 01</a></li>
-                        <li><a href="#">Home 02</a></li>
-                        <li><a href="#">Home 03</a></li>
-                        <li><a href="#">Home 04</a></li>
-                        <li><a href="#">Home 05</a></li>
-                    </ul>
+                <li>
+                    <a href="#">Главная</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="#">О нас</a>
+                </li>
+                <li>
+                    <a href="#">Связаться</a>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
+                    <a href="#">Экскурсии</a>
                     <ul class="sub-menu">
                         <li><a href="#">Tours List</a></li>
                         <li><a href="#">Tours List 02</a></li>
@@ -82,43 +78,12 @@
                         <li><a href="#">User Profile</a></li>
                     </ul>
                 </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Blog</a>
-                    <ul class="sub-menu">
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog 02</a></li>
-                        <li><a href="#">Blog 03</a></li>
-                        <li><a href="#">Blog Details</a></li>
-                        <li><a href="#">Blog Details 02</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
             </ul>
         </div>
         <div class="nav-right-content">
             <ul>
                 <li>
-                    <a class="btn btn-yellow" href="#">Book Now <i class="fa fa-paper-plane"></i></a>
-                </li>
-                <li class="tp-lang">
-                    <div class="tp-lang-wrap">
-                        <select class="select single-select">
-                            <option value="1">ENG</option>
-                            <option value="2">BAN</option>
-                            <option value="3">Chinese</option>
-                            <option value="3">Spanish</option>
-                        </select>
-                    </div>
-                </li>
-                <li class="search">
-                    <i class="ti-search"></i>
-                </li>
-                <li class="notification">
-                    <a class="signUp-btn" href="#">
-                        <i class="fa fa-user-o"></i>
-                    </a>
+                    <a class="btn btn-yellow" href="#">ЗАПИСАТЬСЯ <i class="fa fa-paper-plane"></i></a>
                 </li>
             </ul>
         </div>

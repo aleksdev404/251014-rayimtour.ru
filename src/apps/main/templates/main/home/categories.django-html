@@ -12,10 +12,10 @@
                             </div>
                             <div class="single-blog-details-wrap">
                                 <div class="single-blog-details text-center">
-                                    <a class="tag" href="#">Europe</a>
-                                    <p class="date">19 September 2019</p>
-                                    <h4 class="title">Why You Shouldn’t Ride Elephants In Thailand</h4>
-                                    <a class="btn btn-yellow" href="#"><span>Read More<i class="la la-arrow-right"></i></span></a>
+                                    <!-- <a class="tag" href="#">Europe</a>
+                                    <p class="date">19 September 2019</p> -->
+                                    <h4 class="title">Стамбульский городской тур</h4>
+                                    <a class="btn btn-yellow" href="#"><span>Забронировать<i class="la la-arrow-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -27,10 +27,10 @@
                             </div>
                             <div class="single-blog-details-wrap">
                                 <div class="single-blog-details text-center">
-                                    <a class="tag" href="#">Europe</a>
-                                    <p class="date">18 September 2019</p>
-                                    <h4 class="title">10 Best Highways for Romantic Long Drive</h4>
-                                    <a class="btn btn-yellow" href="#"><span>Read More<i class="la la-arrow-right"></i></span></a>
+                                    <!-- <a class="tag" href="#">Europe</a>
+                                    <p class="date">18 September 2019</p> -->
+                                    <h4 class="title">Исторические места и музеи </h4>
+                                    <a class="btn btn-yellow" href="#"><span>Посмотреть<i class="la la-arrow-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -42,10 +42,10 @@
                             </div>
                             <div class="single-blog-details-wrap">
                                 <div class="single-blog-details text-center">
-                                    <a class="tag" href="#">Europe</a>
-                                    <p class="date">18 September 2019</p>
-                                    <h4 class="title">Rock Climbing Limestone Cliffs At Railay Beach</h4>
-                                    <a class="btn btn-yellow" href="#"><span>Read More<i class="la la-arrow-right"></i></span></a>
+                                    <!-- <a class="tag" href="#">Europe</a>
+                                    <p class="date">18 September 2019</p> -->
+                                    <h4 class="title">Трансфер из аэропорта</h4>
+                                    <a class="btn btn-yellow" href="#"><span>Заказать<i class="la la-arrow-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -57,10 +57,10 @@
                             </div>
                             <div class="single-blog-details-wrap">
                                 <div class="single-blog-details text-center">
-                                    <a class="tag" href="#">Europe</a>
-                                    <p class="date">19 September 2019</p>
-                                    <h4 class="title">Magic In The Sky: Chasing Iceland’s Lights</h4>
-                                    <a class="btn btn-yellow" href="#"><span>Read More<i class="la la-arrow-right"></i></span></a>
+                                    <!-- <a class="tag" href="#">Europe</a>
+                                    <p class="date">19 September 2019</p> -->
+                                    <h4 class="title">Частные шопинг-туры</h4>
+                                    <a class="btn btn-yellow" href="#"><span>Посетить<i class="la la-arrow-right"></i></span></a>
                                 </div>
                             </div>
                         </div>

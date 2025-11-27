@@ -7,27 +7,27 @@
                 <div class="single-intro wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.1s">
                     <h4 class="intro-title">
                         <span class="intro-count">01</span>
-                        <a class="intro-cat" href="#">Travel</a>
+                        <a class="intro-cat" href="#">Опытная команда</a>
                     </h4>
-                    <p>Sponsorships are like unicorns or leprechauns, talked about often but they don’t actually exist. There is only dollars and cents, the ...</p>
+                    <p>Все экскурсии проводят лицензированные и опытные гиды, хорошо знающие историю и основные достопримечательности Стамбула.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="single-intro wow animated fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.2s">
                     <h4 class="intro-title">
                         <span class="intro-count">02</span>
-                        <a class="intro-cat" href="#">Experience</a>
+                        <a class="intro-cat" href="#">Доступная цена</a>
                     </h4>
-                    <p>My response is usually harsh. Offended at the suggestion that a career that’s taken more than a decade to create could be...</p>
+                    <p>Мы предлагаем экскурсии по разумной стоимости, чтобы вы могли посетить больше интересных мест без лишних расходов.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="single-intro wow animated fadeInUp" data-wow-duration="1.6s" data-wow-delay="0.3s">
                     <h4 class="intro-title">
                         <span class="intro-count">03</span>
-                        <a class="intro-cat" href="#">Relax</a>
+                        <a class="intro-cat" href="#">Поддержка 24/7</a>
                     </h4>
-                    <p>I have always made a living to make movies, never the other way around. When I first started I washed in a seafood restaurant....</p>
+                    <p>Мы остаёмся на связи круглосуточно и готовы помочь по любым вопросам, связанным с вашим пребыванием и экскурсиями.</p>
                 </div>
             </div>
         </div>

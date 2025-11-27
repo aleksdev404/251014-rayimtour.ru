@@ -4,7 +4,7 @@
 
 {% block content %}
 
-{% include 'components/breadcrumb.django-html' %}
+{% include 'components/breadcrumb.django-html' with title='О нас' %}
 
 <div class="about-section pd-top-80">
     <div class="container">
@@ -17,8 +17,19 @@
             </div>
             <div class="col-lg-5 align-self-center">
                 <div class="section-title mb-lg-0">
-                    <h2 class="title">Lets Go Travel <br> with Us</h2>
-                    <p>Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo, quis tempor ligula. Quisque quis pharetra felis. Ut quis consequat orci, at consequat felis. Suspendisse auctor laoreet placerat. Nam et risus non lacus dignissim lacinia sit amet nec eros. Nulla vel urna quis libero pharetra varius. Nulla tellus nunc, malesuada at scelerisque eget, cursus at eros. Maecenas pellentesque lacus quis erat eleifend sagittis. Sed vel maximus ante, quis mattis neque. Nullam dapibus erat sed nulla cursus accumsan. Nulla volutpat libero lacinia venenatis sodales. Ut in pellentesque.</p>
+                    <h2 class="title">Наши ценности</h2>
+                    <p>
+                        <b>Путешествие — это опыт.</b>
+                    </p>
+                    <p>
+                        Для нас путешествие — это не просто посещение новых мест, а возможность расширить кругозор и получить новые знания. Мы стремимся сделать каждый тур содержательным и полезным, чтобы гости могли не только увидеть город, но и понять его особенности, историю и культуру.
+                    </p>
+                    <p>
+                        Мы уважительно относимся к людям, с которыми работаем, и к окружающей среде. Наша задача — проводить экскурсии так, чтобы они оставляли приятное впечатление, не создавали лишних сложностей и всегда были комфортными. Мы внимательно готовим маршруты, выбираем удобное время, следим за безопасностью и предоставляем только проверенную информацию.
+                    </p>
+                    <p>
+                        Мы также ценим открытость и честность. Поэтому заранее объясняем структуру тура, условия, стоимость и варианты маршрутов, чтобы у наших гостей не возникало лишних вопросов. Наша цель — создать доверительное и спокойное взаимодействие, в котором каждый чувствует себя уверенно и получает качественный сервис.
+                    </p>
                 </div>
             </div>
         </div>

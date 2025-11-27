@@ -5,9 +5,11 @@
         <div class="row">
             <div class="col-xl-5 col-lg-6 align-self-center wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div class="section-title mb-lg-0 mb-4 text-center text-lg-left">
-                    <h2 class="title">What Do You Know <br> About US</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book. It has not only five centuries</p>
-                    <a class="btn btn-yellow" href="#"><span>Read More<i class="la la-arrow-right"></i></span></a>
+                    <h2 class="title">Наша история</h2>
+                    <p>Мы работаем в сфере туристических и экскурсионных услуг в Стамбуле много лет. За это время мы познакомили множество гостей, в том числе из России, с основными достопримечательностями, культурой и историей региона.</p>
+                    <p>Мы регулярно проходим обучение в области туризма и экскурсионного сопровождения, поэтому предоставляем проверенную информацию и продуманные маршруты. Наша задача — сделать поездку удобной, безопасной и комфортной.</p>
+                    <p>Мы предлагаем различные варианты туров с учётом бюджета и пожеланий клиентов. Стараемся обеспечить понятный сервис, разумные цены и качественную организацию каждого маршрута.</p>
+                    <a class="btn btn-yellow" href="#"><span>Подробнее<i class="la la-arrow-right"></i></span></a>
                 </div>
             </div>
             <div class="col-xl-5 col-lg-6 offset-xl-1 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">

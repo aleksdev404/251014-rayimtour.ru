@@ -3,12 +3,12 @@
 <div class="faq-page-area pd-top-110">
     <div class="container">
         <div class="row">
-            <div class="col-xl-9 col-lg-8">
+            <div class="col-xl-12 col-lg-12">
                 <div class="row">
                     <div class="col-xl-8">
                         <div class="section-title mb-0">
-                            <h2 class="title">Frequently Asked Questions</h2>
-                            <p>Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla</p>
+                            <h2 class="title">Часто задаваемые вопросы</h2>
+                            <p>В этом разделе представлены ответы на самые распространённые вопросы о наших услугах и турах по Стамбулу.</p>
                         </div>
                     </div>
                 </div>
@@ -115,28 +115,6 @@
                         </div>
                     </div>
                 </div>
-            </div>   
-            <div class="col-xl-3 col-lg-4">
-                <aside class="sidebar-area">
-                    <div class="widget widget_search bg-none pd-none">
-                        <form class="search-form">
-                            <div class="form-group">
-                                <input type="text" placeholder="Search">
-                            </div>
-                            <button class="submit-btn" type="submit"><i class="ti-search"></i></button>
-                        </form>
-                    </div>
-                    <div class="widget widget_categories mb-0">
-                        <h2 class="widget-title">Category</h2>
-                        <ul>
-                            <li><a href="#">Software</a> 33</li>
-                            <li><a href="#">App Landing</a> 81</li>
-                            <li><a href="#">Saas Landing</a> 12</li>
-                            <li><a href="#">Design Studio</a> 17</li>
-                            <li><a href="#">Product Showcase</a> 62</li>
-                        </ul>
-                    </div>
-                </aside>
             </div>
         </div>
     </div>

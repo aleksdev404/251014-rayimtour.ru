@@ -4,15 +4,15 @@
 
 {% block content %}
 
-{% include 'components/breadcrumb.django-html' %}
+{% include 'components/breadcrumb.django-html' with title='Связаться' %}
 
 <div class="contact-area pd-top-108">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title text-lg-center text-left">
-                    <h2 class="title">Get In Touch!</h2>
-                    <p>Vestibulum blandit viverra convallis. Pellentesque ligula urna, fermentum ut semper in, tincidunt nec dui. Morbi mauris lacus, consequat eget justo in</p>
+                    <h2 class="title">Свяжитесь с нами!</h2>
+                    <p>Если у вас есть вопросы о наших турах или вы хотите уточнить детали поездки, заполните форму ниже. Мы ответим вам в кратчайшие сроки и поможем подобрать подходящий вариант.</p>
                 </div>
             </div>
         </div>
@@ -27,30 +27,30 @@
                     <div class="row">
                         <div class="col-md-6">
                             <label class="single-input-wrap style-two">
-                                <span class="single-input-title">Name</span>
+                                <span class="single-input-title">Как к вам обращаться?</span>
                                 <input type="text">
                             </label>
                         </div>
                         <div class="col-md-6">
                             <label class="single-input-wrap style-two">
-                                <span class="single-input-title">Number</span>
+                                <span class="single-input-title">Номер телефона</span>
                                 <input type="text">
                             </label>
                         </div>
                         <div class="col-lg-12">
                             <label class="single-input-wrap style-two">
-                                <span class="single-input-title">Email</span>
+                                <span class="single-input-title">Почта (опционально)</span>
                                 <input type="text">
                             </label>
                         </div>
                         <div class="col-lg-12">
                             <label class="single-input-wrap style-two">
-                                <span class="single-input-title">Message</span>
+                                <span class="single-input-title">Заметка (опционально)</span>
                                 <textarea></textarea>
                             </label>
                         </div>
                         <div class="col-12">
-                            <a class="btn btn-yellow" href="#">Send Message</a>
+                            <a class="btn btn-yellow" href="#">Отправить</a>
                         </div>
                     </div>
                 </form>
