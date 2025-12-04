@@ -1,0 +1,28 @@
+{% load static %}
+{% load utils %}
+<div class="client-area pd-top-108">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="title">Отзывы наших клиентов</h2>
+                    <p>Здесь вы можете ознакомиться с отзывами тех, кто уже воспользовался нашими услугами. Мы ценим каждое мнение и стремимся поддерживать высокий уровень сервиса.</p>
+                </div>
+            </div>
+        </div>
+        <div class="client-slider tp-common-slider-style">
+            {% get_review_list as review_list %}
+            {% for review in review_list %}
+                <div class="single-client-card">
+                    <div class="quote"><i class="ti-quote-left"></i></div>   
+                    <p class="content-text">{{review.text}}</p>
+                    <div class="media display-flex justify-content-end">
+                        <div class="media-left">
+                            <img src="{{review.photo.url}}" alt="img">
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

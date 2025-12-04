@@ -57,7 +57,6 @@ Version: 1.0.0
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  overflow-x: hidden;
   font-family: var(--body-font); }
 
 * {
@@ -72,7 +71,6 @@ html {
 body {
   margin: 0;
   color: var(--paragraph-color);
-  overflow-x: hidden;
   font-family: var(--body-font);
   font-size: var(--body-font-size);
   font-weight: var(--body-font-width);
@@ -4236,7 +4234,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       opacity: 0.5;
       border-radius: 10px; }
   .tp-gallery-item-img img {
-    border-radius: 10px; }
+    border-radius: 10px; 
+    width: 100%;
+  }
   .tp-gallery-item-img .details {
     position: absolute;
     bottom: 0;

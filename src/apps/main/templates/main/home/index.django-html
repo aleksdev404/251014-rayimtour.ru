@@ -12,9 +12,9 @@
 
 {% include './advantages.django-html' %}
 
-{% include 'components/testimonials.django-html' %}
+{% include './reviews.django-html' %}
 
-{% include 'components/faq.django-html' %}
+{% include './faq.django-html' %}
 
 {% include 'components/cta.django-html' %}
 
