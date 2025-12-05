@@ -60,7 +60,7 @@
                                     <!-- <a class="tag" href="#">Europe</a>
                                     <p class="date">19 September 2019</p> -->
                                     <h4 class="title">Частные шопинг-туры</h4>
-                                    <a class="btn btn-yellow" href="https://wa.me/905523705900?text=aaaa"><span>Посетить<i class="la la-arrow-right"></i></span></a>
+                                    <a class="btn btn-yellow" href="{% url 'main:excursion-list' %}"><span>Посетить<i class="la la-arrow-right"></i></span></a>
                                 </div>
                             </div>
                         </div>

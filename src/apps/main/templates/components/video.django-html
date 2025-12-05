@@ -19,9 +19,6 @@
                     <div class="thumb">
                         <img src="{% static '' %}/img/video.png" alt="video">
                     </div>
-                    <div class="video-popup-btn">
-                        <a href="https://www.youtube.com/watch?v=c7XEhXZ_rsk" class="video-play-btn mfp-iframe"><i class="fa fa-play"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
