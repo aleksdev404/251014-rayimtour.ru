@@ -1,4 +1,7 @@
 {% load static %}
+{% load utils %}
+{% get_site_settings as site_settings %}
+
 <footer
   class="footer-area"
   style="margin-top: 120px; background-image: url({% static '' %}/img/bg/2.png)"
@@ -9,27 +12,23 @@
         <div class="footer-widget widget">
           <div class="about_us_widget">
             <a href="{% url 'main:home' %}" class="footer-logo">
-              <img src="{% static '' %}/img/logo-new.svg" style="height: 4rem;" alt="footer logo" />
+              <img src="{% static '' %}/img/logo-new.svg" style="height: 3rem;" alt="footer logo" />
             </a>
             <p>
               РУССКОГОВОРЯЩИЙ ГИД в СТАМБУЛЕ
             </p>
+            <p>
+              <img src="{{ site_settings.tursab_image.url }}" alt="">
+            </p>
             <ul class="social-icon">
-              <li>
-                <a class="facebook" href="#" target="_blank"
-                  ><i class="fa fa-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a class="twitter" href="#" target="_blank"
-                  ><i class="fa fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a class="pinterest" href="#" target="_blank"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-              </li>
+              {% get_social_link_list as social_link_list %}
+              {% for social_link in social_link_list %}
+                <li>
+                  <a class="facebook" href="{{ social_link.url }}" target="_blank"
+                    ><i class="{{social_link.fa_icon}}"></i
+                  ></a>
+                </li>
+              {% endfor %}
             </ul>
           </div>
         </div>

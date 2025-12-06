@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="{% static '' %}/css/nice-select.css">
 <link rel="stylesheet" href="{% static '' %}/css/jquery-ui.min.css">
 <link rel="stylesheet" href="{% static '' %}/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 <link rel="stylesheet" href="{% static '' %}/css/themify-icons.css">
 <link rel="stylesheet" href="{% static '' %}/css/line-awesome.min.css">
 <link rel="stylesheet" href="{% static '' %}/css/style.css">

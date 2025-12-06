@@ -1,3 +1,4 @@
+from django.core.exceptions import ValidationError
 from django.core.files.uploadedfile import InMemoryUploadedFile
 from django.db import models
 from django.urls import reverse
@@ -88,6 +89,21 @@ class SiteSettings(models.Model):
 
     def __str__(self):
         return "Настройки сайта"
+
+    def save(self, *args, **kwargs):
+        # У всех синглтонов будет pk = 1
+        if not self.pk:
+            # Если уже есть объект в БД – не даём создать второй
+            if self.__class__.objects.exists():
+                raise ValidationError("Экземпляр этой модели уже существует")
+            self.pk = 1
+        super().save(*args, **kwargs)
+
+    @classmethod
+    def load(cls):
+        # Вернёт существующий объект или создаст новый (pk=1)
+        obj, created = cls.objects.get_or_create(pk=1)
+        return obj
 
 
 class Excursion(

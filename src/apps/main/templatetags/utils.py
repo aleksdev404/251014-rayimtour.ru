@@ -7,7 +7,7 @@ register = template.Library()
 
 @register.simple_tag
 def get_site_settings():
-    return models.SiteSettings.get_solo()
+    return models.SiteSettings.load()
 
 
 @register.simple_tag
@@ -23,6 +23,11 @@ def get_review_list():
 @register.simple_tag
 def get_faq_list():
     return models.FAQ.objects.all()
+
+
+@register.simple_tag
+def get_social_link_list():
+    return models.SocialLink.objects.all()
 
 
 @register.filter
