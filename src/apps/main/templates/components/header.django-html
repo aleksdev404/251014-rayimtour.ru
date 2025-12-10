@@ -22,11 +22,8 @@
                     <li class="top-bar-btn-booking">
                         <a
                             class="btn btn-yellow"
-                            href="https://wa.me/{{site_settings.whatsapp}}"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="Написать в WhatsApp"                        
-                        >📞&nbsp;&nbsp;СВЯЗАТЬСЯ</a>
+                            href="{% url 'main:excursion-list' %}"
+                        >ЗАБРОНИРОВАТЬ</a>
                     </li>
                 </ul>
             </div>
@@ -60,10 +57,7 @@
                 <li>
                     <a
                         class="btn btn-yellow"
-                        href="https://wa.me/{{site_settings.whatsapp}}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Написать в WhatsApp"                    
+                        href="{% url 'main:excursion-list' %}"
                     >ЗАБРОНИРОВАТЬ</a>
                 </li>
             </ul>

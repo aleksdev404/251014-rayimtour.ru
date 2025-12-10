@@ -8,7 +8,7 @@
 
 {% include './categories.django-html' %}
 
-{% include 'components/video.django-html' with is_button_more_visible=True %}
+{% include 'components/our-story.django-html' with is_button_more_visible=True %}
 
 {% include './excursions.django-html' %}
 
@@ -18,6 +18,6 @@
 
 {% include './faq.django-html' %}
 
-{% include 'components/cta.django-html' %}
+{% include 'components/banner.django-html' %}
 
 {% endblock %}

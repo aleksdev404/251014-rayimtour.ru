@@ -35,8 +35,8 @@
     </div>
 </div>
 
-{% include 'components/video.django-html' %}
+{% include 'components/our-story.django-html' %}
 
-{% include 'components/cta.django-html' %}
+{% include 'components/banner.django-html' %}
 
 {% endblock %}

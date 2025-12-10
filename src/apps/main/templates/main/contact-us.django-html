@@ -41,6 +41,6 @@
     </div>
 </div>
 
-{% include 'components/cta.django-html' %}
+{% include 'components/banner.django-html' %}
 
 {% endblock %}
