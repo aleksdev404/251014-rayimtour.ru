@@ -117,19 +117,3 @@ class SocialLinkAdmin(admin.ModelAdmin):
     list_editable = ("is_active", "sort_order")
     search_fields = ("title", "url", "fa_icon")
     ordering = ("sort_order", "id")
-
-
-@admin.register(models.Partner)
-class PartnerAdmin(admin.ModelAdmin):
-    list_display = ("name", "url", "is_active", "sort_order", "logo_thumb")
-    list_editable = ("is_active", "sort_order")
-    search_fields = ("name", "url")
-    readonly_fields = ("logo_thumb",)
-    fields = ("name", "url", "is_active", "sort_order", "logo", "logo_thumb")
-    ordering = ("sort_order", "id")
-
-    def logo_thumb(self, obj):
-        if obj.logo:
-            return format_html('<img src="{}" style="max-height:60px;"/>', obj.logo.url)  # noqa
-        return "—"
-    logo_thumb.short_description = "Превью"

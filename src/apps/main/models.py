@@ -275,19 +275,3 @@ class SocialLink(models.Model):
 
     def __str__(self):
         return self.title or self.url
-
-
-class Partner(models.Model):
-    name = models.CharField("Название", max_length=150)
-    logo = models.ImageField("Логотип", upload_to=upload_to, blank=True, null=True)  # noqa
-    url = models.URLField("Сайт", blank=True)
-    sort_order = models.PositiveIntegerField("Порядок", default=0)
-    is_active = models.BooleanField("Активен", default=True)
-
-    class Meta:
-        verbose_name = "Партнёр"
-        verbose_name_plural = "Партнёры"
-        ordering = ("sort_order", "id")
-
-    def __str__(self):
-        return self.name
