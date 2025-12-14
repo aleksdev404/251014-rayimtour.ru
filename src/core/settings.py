@@ -8,6 +8,7 @@ SECRET_KEY = 'django-insecure-)2qwfby4%b%buul_#2s(na1t(d+8&fix)_ojc^%ux0)n-mn-8(
 DEBUG = True
 
 ALLOWED_HOSTS = (
+    "localhost",
     "rayimtour.aleksdev.space",
 )
 

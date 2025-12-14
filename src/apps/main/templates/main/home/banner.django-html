@@ -68,12 +68,6 @@
 
 
 <style>
-    .main-banner-area
-    {
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
     .main-banner-area__brand, .main-banner-area__brand-shadow
     {
         background: transparent !important;
@@ -83,7 +77,8 @@
 
     .main-banner-area__brand-shadow
     {
-        transform: translateY(-100%) !important;
+        -ms-transform: translateY(-100%) !important;
+            transform: translateY(-100%) !important;
         -webkit-transform: translateY(-100%) !important;
         margin-top: 0 !important;
     }

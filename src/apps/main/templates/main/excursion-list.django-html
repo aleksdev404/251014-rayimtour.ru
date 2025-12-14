@@ -29,6 +29,12 @@
     margin:0;
     background: #ffffff;
 }
+
+.row.excursions
+{
+    margin-left: 0;
+    margin-right: 0;
+}
 </style>
 
 {% include 'components/banner.django-html' %}
